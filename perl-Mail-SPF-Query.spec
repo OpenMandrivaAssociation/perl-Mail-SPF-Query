@@ -9,7 +9,7 @@ License:	BSD
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
 Source:		http://www.cpan.org/modules/by-module/Mail/%{upstream_name}-%{upstream_version}.tar.gz
-BuildRequires:	perl(Mail::SPF) perl(Sys::Hostname::Long) perl(Net::CIDR::Lite)
+BuildRequires:	perl(Mail::SPF) perl(Sys::Hostname::Long) perl(Net::CIDR::Lite) perl-devel
 BuildArch:	noarch
 
 %description
