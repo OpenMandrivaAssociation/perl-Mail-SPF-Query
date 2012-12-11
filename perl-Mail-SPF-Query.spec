@@ -45,3 +45,10 @@ rm -rf %{buildroot}
 %_mandir/man1/spfquery.1*
 %_mandir/man3/Mail::SPF::Query.3pm*
 %perl_vendorlib/Mail/SPF/Query.pm
+
+
+%changelog
+* Sat Jun 09 2012 Bernhard Rosenkraenzer <bero@bero.eu> 1.999.1-1
++ Revision: 803777
+- import perl-Mail-SPF-Query
+
