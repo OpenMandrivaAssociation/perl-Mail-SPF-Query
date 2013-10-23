@@ -3,7 +3,7 @@
 
 Name:   	perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	4
+Release:	5
 Summary:	Perl implementation of querying Sender Policy Framework and Sender ID
 License:	BSD
 Group:		Development/Perl
