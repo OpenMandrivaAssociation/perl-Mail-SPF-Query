@@ -4,7 +4,7 @@
 Summary:	Perl implementation of querying Sender Policy Framework and Sender ID
 Name:		perl-%{modname}
 Version:	%perl_convert_version %{modver}
-Release:	9
+Release:	10
 License:	BSD
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{modname}
