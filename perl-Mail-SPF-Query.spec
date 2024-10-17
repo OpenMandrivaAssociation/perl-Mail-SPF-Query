@@ -7,7 +7,7 @@ Version:	%perl_convert_version %{modver}
 Release:	18
 License:	BSD
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{modname}
+Url:		https://search.cpan.org/dist/%{modname}
 Source0:	http://www.cpan.org/modules/by-module/Mail/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	perl(Mail::SPF)
