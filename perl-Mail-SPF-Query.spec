@@ -10,6 +10,7 @@ Group:		Development/Perl
 Url:		https://search.cpan.org/dist/%{modname}
 Source0:	http://www.cpan.org/modules/by-module/Mail/%{modname}-%{modver}.tar.gz
 BuildArch:	noarch
+BuildRequires:	make
 BuildRequires:	perl(Mail::SPF)
 BuildRequires:	perl(Sys::Hostname::Long)
 BuildRequires:	perl(Net::CIDR::Lite)
