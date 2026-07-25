@@ -3,12 +3,12 @@
 
 Summary:	Perl implementation of querying Sender Policy Framework and Sender ID
 Name:		perl-%{modname}
-Version:	%perl_convert_version %{modver}
-Release:	18
+Version:	%{modver}
+Release:	19
 License:	BSD
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{modname}
-Source0:	http://www.cpan.org/modules/by-module/Mail/%{modname}-%{modver}.tar.gz
+Url:		https://metacpan.org/dist/Mail-SPF-Query
+Source0:	https://cpan.metacpan.org/authors/id/J/JM/JMEHNLE/mail-spf-query/Mail-SPF-Query-%{modver}.tar.gz
 BuildArch:	noarch
 BuildRequires:	make
 BuildRequires:	perl(Mail::SPF)
